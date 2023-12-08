@@ -1,0 +1,12 @@
+:root {
+  --background-color: #fff; /* Light mode background color */
+  --text-color: #333; /* Light mode text color */
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
